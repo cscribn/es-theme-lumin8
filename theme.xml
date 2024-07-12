@@ -157,14 +157,6 @@ Element color: Search and replace colors. Do not use spaces
 			<color>04e9f7</color>
 		</image>
 
-		<text name="No_Image" extra="true">
-			<pos>0.690 0.371</pos>
-			<text>No Image</text>
-			<alignment>center</alignment>
-			<color>a0a0a0</color>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-		</text>
-
 		<image name="md_image">
 			<pos>0.737 0.371</pos>
 			<maxSize>0.476 0.466</maxSize>
