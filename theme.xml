@@ -16,12 +16,11 @@ Element color: Search and replace colors. Do not use spaces
 	Pink	f5 02 97
 -->
 
-
-
 <theme>
     <formatVersion>4</formatVersion>
 
 	<view name="basic, detailed, system">
+
 		<image name="background" extra="true">
 			<tile>true</tile>
 			<size>1 1</size>
@@ -62,6 +61,7 @@ Element color: Search and replace colors. Do not use spaces
 			<path>./art/fade-vertical.png</path>
 			<color>ffffff70</color>
 		</image>
+
 	</view>
 
 	<view name="system">
@@ -95,6 +95,17 @@ Element color: Search and replace colors. Do not use spaces
 		<image name="logo">
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
+
+		<text name="systemText" extra="true">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/SNES.ttf</fontPath>
+			<fontSize>0.055</fontSize>
+			<size>0.9 0</size>
+			<pos>0.5 0.2</pos>
+			<alignment>center</alignment>
+			<origin>0.5 0.5</origin>
+			<text>${system.fullName}</text>
+		</text>
 
 	</view>
 
@@ -265,15 +276,6 @@ Element color: Search and replace colors. Do not use spaces
 
 	<view name="basic, detailed">
 
-		<image name="background" extra="true">
-			<tile>true</tile>
-			<size>1 1</size>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<path>./art/box.png</path>
-			<color>d1d3d4</color>
-		</image>
-
 		<image name="bottom_box" extra="true">
 			<tile>false</tile>
 			<pos>0 0.93</pos>
@@ -326,7 +328,16 @@ Element color: Search and replace colors. Do not use spaces
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
 
-	</view>
+		<text name="systemText" extra="true">
+			<forceUppercase>1</forceUppercase>
+			<size>0.35 0</size>
+			<pos>0.627 0.01</pos>
+			<alignment>right</alignment>
+			<fontPath>./art/SNES.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<text>${system.fullName}</text>
+		</text>
 
+	</view>
 
 </theme>
