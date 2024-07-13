@@ -163,68 +163,63 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0.5 0.5</origin>
 		</image>
 
-		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
-			<color>726f70</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<size>0 0</size>
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
 			<pos>1 1</pos>
 		</text>
 
-		<text name="md_genre, md_developer, md_lbl_players, md_players">
-			<color>726f70</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-		</text>
-
-		<datetime name="md_releasedate">
-			<pos>0.590 0.600</pos>
-			<color>726f70</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-		</datetime>
-
-		<text name="md_developer">
-			<size>0.220 0.037</size>
-			<pos>0.51 0.637</pos>
-			<alignment>center</alignment>
-		</text>
-
-		<text name="md_genre">
-			<pos>0.51 0.668</pos>
-			<size>0.220 0.034</size>
-			<alignment>center</alignment>
-		</text>
-
-		<text name="md_lbl_players">
-			<pos>0.816 0.613</pos>
-		</text>
-
-		<text name="md_players">
-			<pos>0.863 0.6031</pos>
-		</text>
+		<rating name="md_rating">
+			<pos>1 1</pos>
+		</rating>
 
 		<datetime name="md_lastplayed">
 			<pos>1 1</pos>
 		</datetime>
 
-		<rating name="md_rating">
-			<pos>1 1</pos>
-			<size>0.028 0.028</size>
-			<filledPath>./art/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./art/star_hollow_3_spacing.svg</unfilledPath>
-		</rating>
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0 0.033</size>
+		</text>
 
-		<text name="md_description">
+		<datetime name="md_releasedate">
 			<color>726f70</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
-			<size>0.46 0.19</size>
-			<pos>0.510 0.720</pos>
+			<size>0 0.033</size>
+		</datetime>
+
+		<text name="md_developer, md_publisher">
+			<color>726f70</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0 0.033</size>
+		</text>
+
+		<text name="md_lbl_releasedate">
+			<pos>0.53 0.63</pos>
+		</text>
+
+		<datetime name="md_releasedate">
+			<pos>0.64 0.63</pos>
+		</datetime>
+
+		<text name="md_lbl_developer">
+			<pos>0.53 0.66</pos>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.64 0.66</pos>
+		</text>
+
+		<text name="md_lbl_publisher">
+			<pos>0.53 0.69</pos>
+		</text>
+
+		<text name="md_publisher">
+			<pos>0.64 0.69</pos>
 		</text>
 
 		<textlist name="gamelist">
@@ -241,28 +236,6 @@ Element color: Search and replace colors. Do not use spaces
 			<fontSize>0.03</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
-
-		<image name="md_hidden" extra="true">
-			<pos>0.806 0.678</pos>
-			<path>./art/hidden.svg</path>
-			<maxSize>0.036 0.036</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>726f70</color>
-		</image>
-		<image name="md_kidgame" extra="true">
-			<pos>0.847 0.678</pos>
-			<path>./art/kid.svg</path>
-			<maxSize>0.036 0.036</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>726f70</color>
-		</image>
-		<image name="md_favorite" extra="true">
-			<pos>0.889 0.678</pos>
-			<path>./art/favorite.svg</path>
-			<maxSize>0.036 0.036</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>726f70</color>
-		</image>
 
 		</view>
 
