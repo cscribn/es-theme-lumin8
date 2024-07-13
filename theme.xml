@@ -105,6 +105,7 @@ Element color: Search and replace colors. Do not use spaces
 			<alignment>center</alignment>
 			<origin>0.5 0.5</origin>
 			<text>${system.fullName}</text>
+			<color>726f70</color>
 		</text>
 
 	</view>
@@ -176,6 +177,7 @@ Element color: Search and replace colors. Do not use spaces
 		</datetime>
 
 		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
+			<color>726f70</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
@@ -301,6 +303,7 @@ Element color: Search and replace colors. Do not use spaces
 			<fontPath>./art/SNES.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 			<text>${system.fullName}</text>
+			<color>726f70</color>
 		</text>
 
 	</view>
