@@ -1,16 +1,14 @@
-# Carbon8 Theme for EmulationStation
+# Lumin8 Theme for EmulationStation
 
-Carbon8 is an EmulationStation version 4 compatible theme, making it ideal for low-powered systems using RetroPie or ArkOS, as well as the PlayStation Classic.
+Lumin8 is an EmulationStation version 4 compatible theme, making it ideal for low-powered systems using RetroPie or ArkOS, as well as the PlayStation Classic.
 
-Do you love the carbon theme, but have trouble discerning a system based on its logo or controller? Have you wondered whether `Game Gear` should be sorted with the `Gs`, for `Game`, or the `Ss`, for `Sega`? This theme was designed to address those issues. Instead of displaying the system's controller, it instead displays the system's fullname from your `es_settings.cfg`. Only "Released", "Developer", and "Publisher" meta data is utilized.
+Do you love the luminous theme, but have trouble discerning a system based on its logo or controller? Have you wondered whether `Game Gear` should be sorted with the `Gs`, for `Game`, or the `Ss`, for `Sega`? This theme was designed to address those issues. Instead of displaying the system's controller, it instead displays the system's fullname from your `es_settings.cfg`. Only "Released", "Developer", and "Publisher" meta data is utilized.
 
-![System Select](art/README/System%20Select.png) ![Detailed Game List](art/README/Detailed%20Game%20List.png)
-
-Based on ['carbon' v2.4 - 08-16-2016 by Rookervik](https://github.com/RetroPie/es-theme-carbon).
+Based on ['luminous' - 11-03-2016 by Rookervik](https://github.com/ehettervik/es-theme-luminous).
 
 ## Why "8"?
 
-Eight is the number of bits in a character. For systems, Carbon8 uses characters instead of controller images.
+Eight is the number of bits in a character. For systems, Lumin8 uses characters above the system logos.
 
 ## Configuration
 
