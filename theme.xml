@@ -2,75 +2,35 @@
 	<formatVersion>4</formatVersion>
 	<include>./color.xml</include>
 
-	<view name="basic, detailed, system">
+	<view name="system">
 
 		<image name="background" extra="true">
 			<tile>true</tile>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<path>./art/box.png</path>
-			<color>d1d3d4</color>
-		</image>
-
-		<image name="honeycomb" extra="true">
-			<tile>true</tile>
-			<size>1 1</size>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<path>./art/honeycomb.png</path>
-			<color>c6c6c880</color>
+			<path>./art/carbon_fiber.png</path>
 		</image>
 
 		<helpsystem name="help">
-			<textColor>8f8c8d</textColor>
-			<iconColor>8f8c8d</iconColor>
+			<textColor>7d7d7d</textColor>
+			<iconColor>7d7d7d</iconColor>
 		</helpsystem>
 
-		<image name="Top_Fade" extra="true">
+		<image name="CenterFade" extra="true">
 			<tile>false</tile>
-			<size>1 0.125</size>
-			<pos>0.0 0.0</pos>
-			<origin>0.0 0.0</origin>
-			<path>./art/fade-vertical.png</path>
-			<color>ffffff70</color>
+			<size>1 0.5</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./art/centerfade.png</path>
 		</image>
 
-		<image name="Bottom_Fade" extra="true">
+		<image name="BottomBar" extra="true">
 			<tile>false</tile>
-			<size>1 -0.2</size>
+			<size>1 0.065</size>
 			<pos>0 1</pos>
-			<origin>0 0</origin>
-			<path>./art/fade-vertical.png</path>
-			<color>ffffff70</color>
-		</image>
-
-	</view>
-
-	<view name="system">
-
-		<image name="center_bar" extra="true">
-			<tile>false</tile>
-			<size>1 0.2702</size>
-			<pos>0 0.384</pos>
-			<origin>0 0</origin>
-			<path>./art/center_bar.png</path>
-		</image>
-
-		<image name="color_bar_top" extra="true">
-			<tile>false</tile>
-			<pos>0 0.378</pos>
-			<origin>0 0</origin>
-			<size>1 0.005</size>
-			<path>./art/box.png</path>
-		</image>
-
-		<image name="color_bar_bottom" extra="true">
-			<tile>false</tile>
-			<pos>0 0.615</pos>
-			<origin>0 0</origin>
-			<size>1 0.005</size>
-			<path>./art/box.png</path>
+			<origin>0 1</origin>
+			<path>./art/bottom.png</path>
 		</image>
 
 		<image name="logo">
@@ -86,20 +46,27 @@
 			<alignment>center</alignment>
 			<origin>0.5 0.5</origin>
 			<text>${system.fullName}</text>
-			<color>726f70</color>
 		</text>
 
 	</view>
 
 	<view name="basic">
 
+		<image name="background" extra="true">
+			<tile>true</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/carbon_fiber.png</path>
+		</image>
+
 		<textlist name="gamelist">
-			<primaryColor>726f70</primaryColor>
+			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.030</fontSize>
 			<pos>0.025 0.18</pos>
-			<size>0.950 0.71</size>
+			<size>0.950 0.73</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<forceUppercase>1</forceUppercase>
@@ -110,35 +77,45 @@
 
 	<view name="detailed">
 
-		<image name="gamelist_background" extra="true">
-			<tile>false</tile>
-			<pos>0.030 0.10</pos>
-			<origin>0 0</origin>
-			<size>0.442 0.83</size>
-			<path>./art/box.png</path>
-			<color>ffffff60</color>
-		</image>
-
-		<image name="left_colored_bar" extra="true">
-			<tile>false</tile>
-			<pos>0.030 0.10</pos>
-			<origin>0 0</origin>
-			<size>0.003 0.83</size>
-			<path>./art/box.png</path>
-		</image>
-
-		<image name="right_colored_bar" extra="true">
-			<tile>false</tile>
-			<pos>0.472 0.10</pos>
-			<origin>0 0</origin>
-			<size>0.003 0.83</size>
-			<path>./art/box.png</path>
-		</image>
-
 		<image name="md_image">
-			<pos>0.737 0.371</pos>
-			<maxSize>0.476 0.466</maxSize>
+			<pos>0.763 0.400</pos>
+			<maxSize>0.453 0.436</maxSize>
 			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+
+	<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.763 0.400</pos>
+				<maxSize>0.366 0.436</maxSize>
+				<origin>0.5 0.5</origin>
+				<delay>0.2</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.6 0.035</pos>
+				<origin>0 0</origin>
+				<maxSize>0.2 0.1</maxSize>
+			</image>
+
+		</view>
+
+	</feature>
+
+	<view name="detailed, video">
+
+		<image name="background">
+			<tile>true</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/carbon_fiber.png</path>
 		</image>
 
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
@@ -154,7 +131,6 @@
 		</datetime>
 
 		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
-			<color>726f70</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
@@ -162,7 +138,7 @@
 		</text>
 
 		<datetime name="md_releasedate">
-			<color>726f70</color>
+			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
@@ -170,7 +146,7 @@
 		</datetime>
 
 		<text name="md_developer, md_publisher">
-			<color>726f70</color>
+			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
@@ -202,81 +178,51 @@
 		</text>
 
 		<textlist name="gamelist">
-			<primaryColor>726f70</primaryColor>
+			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
-			<pos>0.030 0.167</pos>
-			<size>0.442 0.741</size>
+			<pos>0.021 0.168</pos>
+			<size>0.489 0.754</size>
 			<alignment>left</alignment>
-			<horizontalMargin>0.02</horizontalMargin>
+			<horizontalMargin>0.00</horizontalMargin>
 			<fontSize>0.03</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
 
-		</view>
+	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 
-		<image name="bottom_box" extra="true">
-			<tile>false</tile>
-			<pos>0 0.93</pos>
-			<origin>0 0</origin>
-			<size>1 0.07</size>
-			<path>./art/box.png</path>
-			<color>ffffff70</color>
-		</image>
-
-		<image name="bottom_colored_bar" extra="true">
-			<tile>false</tile>
-			<pos>0 0.93</pos>
-			<origin>0 0</origin>
-			<size>1 0.005</size>
-			<path>./art/box.png</path>
+		<image name="bottom" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/bottom.png</path>
 		</image>
 
 		<image name="top" extra="true">
-			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.20</size>
-			<path>./art/GamelistTop.png</path>
-			<color>ffffff</color>
-		</image>
-
-		<image name="top_honeycomb" extra="true">
-			<tile>true</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 0.1048</size>
-			<path>./art/honeycomb.png</path>
-			<color>ffffff60</color>
-		</image>
-
-		<image name="top_colored_bar" extra="true">
-			<tile>false</tile>
-			<pos>0 0.1048</pos>
-			<origin>0 0</origin>
-			<size>1 0.005</size>
-			<path>./art/box.png</path>
+			<size>1 0.16</size>
+			<path>./art/top.png</path>
 		</image>
 
 		<image name="logo">
-			<pos>0.05 0.009</pos>
-			<maxSize>0.35 0.09</maxSize>
-			<origin>0.0 0.0</origin>
+			<pos>0.266 0.074</pos>
+			<maxSize>0.460 0.126</maxSize>
+			<origin>0.5 0.5</origin>
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
 
 		<text name="systemText" extra="true">
 			<forceUppercase>1</forceUppercase>
-			<size>0.35 0</size>
-			<pos>0.627 0.01</pos>
+			<size>0.45 0</size>
+			<pos>0.527 0.01</pos>
 			<alignment>right</alignment>
 			<fontPath>./art/SNES.ttf</fontPath>
-			<fontSize>0.035</fontSize>
+			<fontSize>0.045</fontSize>
 			<text>${system.fullName}</text>
-			<color>726f70</color>
 		</text>
 
 	</view>
