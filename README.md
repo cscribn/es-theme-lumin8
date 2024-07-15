@@ -4,6 +4,8 @@ Lumin8 is an EmulationStation version 4 compatible theme, making it ideal for lo
 
 Do you love the luminous theme, but have trouble discerning a system based on its logo or controller? Have you wondered whether `Game Gear` should be sorted with the `Gs`, for `Game`, or the `Ss`, for `Sega`? This theme was designed to address those issues. Instead of displaying the system's controller, it instead displays the system's fullname from your `es_settings.cfg`. Only "Released", "Developer", and "Publisher" meta data is utilized.
 
+![System Select](art/README/System%20Select.png) ![Detailed Game List](art/README/Detailed%20Game%20List.png)
+
 Based on ['luminous' - 11-03-2016 by Rookervik](https://github.com/ehettervik/es-theme-luminous).
 
 ## Why "8"?
