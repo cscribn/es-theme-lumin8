@@ -20,7 +20,7 @@ Copy your font to /etc/emulationstation/themes/carbon8/art folder. For the gamel
 
 ### Change Color
 
-To change the colors open colors.xml with a text editor. Find all occurances of "8b0000" and replace them with your chosen color.
+To change the colors open colors.xml with a text editor. Find all occurances of "04e9f7" and replace them with your chosen color.
 
 ### Change Sound
 
