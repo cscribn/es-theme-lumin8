@@ -36,7 +36,6 @@
 			<size>1 0.2702</size>
 			<pos>0 0.384</pos>
 			<origin>0 0</origin>
-			<path>./art/center_bar.png</path>
 		</image>
 
 		<image name="color_bar_top" extra="true">
