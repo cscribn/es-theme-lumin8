@@ -16,7 +16,7 @@ Eight is the number of bits in a character. For systems, Lumin8 uses characters 
 
 ### Change Font
 
-Copy your font to /etc/emulationstation/themes/carbon8/art folder. For the gamelist text, rename the original font "Cabin-Bold.ttf" to "Cabin-Bold.ttf.bak" and then rename your font to "Cabin-Bold.ttf". For the system text, rename the original font "Cabin-BoldItalic.ttf" to "Cabin-BoldItalic.ttf.bak" and then rename your font to "Cabin-BoldItalic.ttf".
+Copy your font to /etc/emulationstation/themes/carbon8/art folder. For the gamelist text, rename the original font "Cabin-Bold.ttf" to "Cabin-Bold.ttf.bak" and then rename your font to "Cabin-Bold.ttf". For the system text, rename the original font "Akrobat-Bold.otf" to "Akrobat-Bold.otf.bak" and then rename your font to "Akrobat-Bold.otf".
 
 ### Change Color
 

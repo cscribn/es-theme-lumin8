@@ -68,8 +68,8 @@
 		<text name="systemText" extra="true">
 			<color>8f8c8d</color>
 			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/Cabin-BoldItalic.ttf</fontPath>
-			<fontSize>0.055</fontSize>
+			<fontPath>./art/Akrobat-Bold.otf</fontPath>
+			<fontSize>0.05</fontSize>
 			<size>0.9 0</size>
 			<pos>0.5 0.2</pos>
 			<alignment>center</alignment>
@@ -251,8 +251,8 @@
 			<size>0.45 0</size>
 			<pos>0.527 0.01</pos>
 			<alignment>right</alignment>
-			<fontPath>./art/Cabin-BoldItalic.ttf</fontPath>
-			<fontSize>0.045</fontSize>
+			<fontPath>./art/Akrobat-Bold.otf</fontPath>
+			<fontSize>0.04</fontSize>
 			<text>${system.fullName}</text>
 		</text>
 
