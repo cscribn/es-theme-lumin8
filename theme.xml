@@ -9,17 +9,7 @@
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<path>./art/box.png</path>
-			<color>d1d3d4</color>
-		</image>
-
-		<image name="honeycomb" extra="true">
-			<tile>true</tile>
-			<size>1 1</size>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
 			<path>./art/honeycomb.png</path>
-			<color>c6c6c880</color>
 		</image>
 
 		<helpsystem name="help">
