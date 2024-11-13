@@ -71,7 +71,7 @@
 			<size>1 0</size>
 			<pos>0 0.01</pos>
 			<alignment>center</alignment>
-			<fontPath>./art/Akrobat-Bold.otf</fontPath>
+			<fontPath>./art/OpenSansHebrewCondensed-Regular.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<text>${system.fullName}</text>
 		</text>
@@ -250,7 +250,7 @@
 			<size>0.45 0</size>
 			<pos>0.527 0.01</pos>
 			<alignment>right</alignment>
-			<fontPath>./art/Akrobat-Bold.otf</fontPath>
+			<fontPath>./art/OpenSansHebrewCondensed-Regular.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<text>${system.fullName}</text>
 		</text>
