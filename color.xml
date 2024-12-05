@@ -1,0 +1,161 @@
+<!--
+Element color: Search and replace colors. Do not use spaces
+	Red 	8b 00 00
+	Blue 	30 82 ce
+	Green 	50 d6 2c
+	Yellow	ef bc 0b
+	Orange	ef 71 0b
+	Purple	ac 0b ef
+	Teal	04 e9 f7
+	Pink	f5 02 97
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="basic, detailed, system">
+
+		<image name="background" extra="true">
+		</image>
+
+		<image name="honeycomb" extra="true">
+		</image>
+
+		<helpsystem name="help">
+		</helpsystem>
+
+		<image name="Top_Fade" extra="true">
+		</image>
+
+		<image name="Bottom_Fade" extra="true">
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="center_bar" extra="true">
+		</image>
+
+		<image name="color_bar_top" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<image name="color_bar_bottom" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<image name="logo">
+			<path>./art/systems/${system.theme}.svg</path>
+		</image>
+
+		<text name="systemText" extra="true">
+		</text>
+
+	</view>
+
+	<view name="basic">
+
+		<textlist name="gamelist">
+			<selectorColor>c4c5c6</selectorColor>
+			<selectedColor>04e9f7</selectedColor>
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="gamelist_background" extra="true">
+		</image>
+
+		<image name="left_colored_bar" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<image name="right_colored_bar" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<text name="No_Image" extra="true">
+		</text>
+
+		<image name="md_image">
+		</image>
+
+		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+		</text>
+
+		<text name="md_genre, md_developer, md_lbl_players, md_players">
+		</text>
+
+		<datetime name="md_releasedate">
+		</datetime>
+
+		<text name="md_developer">
+		</text>
+
+		<text name="md_genre">
+		</text>
+
+		<text name="md_lbl_players">
+		</text>
+
+		<text name="md_players">
+		</text>
+
+		<datetime name="md_lastplayed">
+		</datetime>
+
+		<rating name="md_rating">
+		</rating>
+
+		<text name="md_description">
+		</text>
+
+		<textlist name="gamelist">
+			<selectorColor>04e9f7</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+		</textlist>
+
+		<image name="md_hidden" extra="true">
+		</image>
+
+		<image name="md_kidgame" extra="true">
+		</image>
+
+		<image name="md_favorite" extra="true">
+		</image>
+
+	</view>
+
+	<view name="basic, detailed">
+
+		<image name="background" extra="true">
+		</image>
+
+		<image name="bottom_box" extra="true">
+		</image>
+
+		<image name="bottom_colored_bar" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<image name="top" extra="true">
+		</image>
+
+		<image name="top_honeycomb" extra="true">
+		</image>
+
+		<image name="top_colored_bar" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<image name="logo">
+		</image>
+
+		<text name="systemText" extra="true">
+		</text>
+
+	</view>
+
+</theme>

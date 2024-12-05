@@ -1,27 +1,9 @@
-<!--
-Theme: Carbon
-version: 2.0
-author: Eric Hettervik (Rookervik)
-license: creative commons CC-BY-NC-SA
-originally based on: "simple" by nils bonenberger
-
-Element color: Search and replace colors. Do not use spaces
-	Red 	8b 00 00
-	Blue 	30 82 ce
-	Green 	50 d6 2c
-	Yellow	ef bc 0b
-	Orange	ef 71 0b
-	Purple	ac 0b ef
-	Teal	04 e9 f7
-	Pink	f5 02 97
--->
-
-
-
 <theme>
     <formatVersion>4</formatVersion>
+	<include>./color.xml</include>
 
 	<view name="basic, detailed, system">
+
 		<image name="background" extra="true">
 			<tile>true</tile>
 			<size>1 1</size>
@@ -62,6 +44,7 @@ Element color: Search and replace colors. Do not use spaces
 			<path>./art/fade-vertical.png</path>
 			<color>ffffff70</color>
 		</image>
+
 	</view>
 
 	<view name="system">
@@ -80,7 +63,6 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0 0</origin>
 			<size>1 0.005</size>
 			<path>./art/box.png</path>
-			<color>04e9f7</color>
 		</image>
 
 		<image name="color_bar_bottom" extra="true">
@@ -89,7 +71,6 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0 0</origin>
 			<size>1 0.005</size>
 			<path>./art/box.png</path>
-			<color>04e9f7</color>
 		</image>
 
 		<image name="logo">
@@ -112,8 +93,6 @@ Element color: Search and replace colors. Do not use spaces
 	<view name="basic">
 
 		<textlist name="gamelist">
-			<selectorColor>c4c5c6</selectorColor>
-			<selectedColor>04e9f7</selectedColor>
 			<primaryColor>726f70</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
@@ -145,7 +124,6 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0 0</origin>
 			<size>0.003 0.83</size>
 			<path>./art/box.png</path>
-			<color>04e9f7</color>
 		</image>
 
 		<image name="right_colored_bar" extra="true">
@@ -154,7 +132,6 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0 0</origin>
 			<size>0.003 0.83</size>
 			<path>./art/box.png</path>
-			<color>04e9f7</color>
 		</image>
 
 		<text name="No_Image" extra="true">
@@ -236,8 +213,6 @@ Element color: Search and replace colors. Do not use spaces
 		</text>
 
 		<textlist name="gamelist">
-			<selectorColor>04e9f7</selectorColor>
-			<selectedColor>ffffff</selectedColor>
 			<primaryColor>726f70</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
@@ -257,6 +232,7 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0.5 0.5</origin>
 			<color>726f70</color>
 		</image>
+
 		<image name="md_kidgame" extra="true">
 			<pos>0.847 0.678</pos>
 			<path>./art/kid.svg</path>
@@ -264,6 +240,7 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0.5 0.5</origin>
 			<color>726f70</color>
 		</image>
+
 		<image name="md_favorite" extra="true">
 			<pos>0.889 0.678</pos>
 			<path>./art/favorite.svg</path>
@@ -272,7 +249,7 @@ Element color: Search and replace colors. Do not use spaces
 			<color>726f70</color>
 		</image>
 
-		</view>
+	</view>
 
 	<view name="basic, detailed">
 
@@ -300,7 +277,6 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0 0</origin>
 			<size>1 0.005</size>
 			<path>./art/box.png</path>
-			<color>04e9f7</color>
 		</image>
 
 		<image name="top" extra="true">
@@ -327,7 +303,6 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0 0</origin>
 			<size>1 0.005</size>
 			<path>./art/box.png</path>
-			<color>04e9f7</color>
 		</image>
 
 		<image name="logo">
@@ -349,6 +324,5 @@ Element color: Search and replace colors. Do not use spaces
 		</text>
 
 	</view>
-
 
 </theme>
