@@ -1,5 +1,5 @@
 <!--
-Element color: Search and replace colors. Do not use spaces!
+Element color: Search and replace colors. Do not use spaces
 	Red 	8b 00 00
 	Blue 	30 82 ce
 	Green 	50 d6 2c
@@ -9,16 +9,26 @@ Element color: Search and replace colors. Do not use spaces!
 	Teal	04 e9 f7
 	Pink	f5 02 97
 -->
-<theme>
-	<formatVersion>4</formatVersion>
 
-	<view name="basic, detailed, system, video">
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="basic, detailed, system">
 
 		<image name="background" extra="true">
 		</image>
 
+		<image name="honeycomb" extra="true">
+		</image>
+
 		<helpsystem name="help">
 		</helpsystem>
+
+		<image name="Top_Fade" extra="true">
+		</image>
+
+		<image name="Bottom_Fade" extra="true">
+		</image>
 
 	</view>
 
@@ -35,14 +45,8 @@ Element color: Search and replace colors. Do not use spaces!
 			<color>04e9f7</color>
 		</image>
 
-		<image name="BottomBar" extra="true">
-			<color>04e9f7</color>
-		</image>
-
-		<image name="BottomBarBackground" extra="true">
-		</image>
-
 		<image name="logo">
+			<path>./art/systems/${system.theme}.svg</path>
 		</image>
 
 		<text name="systemText" extra="true">
@@ -61,28 +65,21 @@ Element color: Search and replace colors. Do not use spaces!
 
 	<view name="detailed">
 
+		<image name="gamelist_background" extra="true">
+		</image>
+
+		<image name="left_colored_bar" extra="true">
+			<color>04e9f7</color>
+		</image>
+
+		<image name="right_colored_bar" extra="true">
+			<color>04e9f7</color>
+		</image>
+
 		<image name="md_image">
 		</image>
 
-	</view>
-
-	<feature supported="video">
-
-		<view name="video">
-
-			<video name="md_video">
-			</video>
-
-			<image name="md_marquee">
-			</image>
-
-		</view>
-
-	</feature>
-
-	<view name="detailed, video">
-
-		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players">
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
 		</text>
 
 		<rating name="md_rating">
@@ -91,54 +88,45 @@ Element color: Search and replace colors. Do not use spaces!
 		<datetime name="md_lastplayed">
 		</datetime>
 
-		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
+		<text name="md_releasedate, md_developer, md_publisher">
 		</text>
 
 		<datetime name="md_releasedate">
 		</datetime>
-
-		<text name="md_developer, md_publisher">
-		</text>
-
-		<text name="md_lbl_releasedate">
-		</text>
-
-		<datetime name="md_releasedate">
-		</datetime>
-
-		<text name="md_lbl_developer">
-		</text>
 
 		<text name="md_developer">
-		</text>
-
-		<text name="md_lbl_publisher">
 		</text>
 
 		<text name="md_publisher">
 		</text>
 
 		<textlist name="gamelist">
-			<selectorColor>c4c5c6</selectorColor>
-			<selectedColor>04e9f7</selectedColor>
+			<selectorColor>04e9f7</selectorColor>
+			<selectedColor>ffffff</selectedColor>
 		</textlist>
 
 	</view>
 
-	<view name="basic, detailed, video">
+	<view name="basic, detailed">
 
-		<image name="bottom" extra="true">
-			<color>04e9f7</color>
+		<image name="background" extra="true">
 		</image>
 
-		<image name="bottom_background" extra="true">
+		<image name="bottom_box" extra="true">
+		</image>
+
+		<image name="bottom_colored_bar" extra="true">
+			<color>04e9f7</color>
 		</image>
 
 		<image name="top" extra="true">
-			<color>04e9f7</color>
 		</image>
 
-		<image name="top_background" extra="true">
+		<image name="top_honeycomb" extra="true">
+		</image>
+
+		<image name="top_colored_bar" extra="true">
+			<color>04e9f7</color>
 		</image>
 
 		<image name="logo">
