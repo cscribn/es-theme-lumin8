@@ -76,16 +76,19 @@ Element color: Search and replace colors. Do not use spaces
 			<color>04e9f7</color>
 		</image>
 
-		<text name="No_Image" extra="true">
-		</text>
-
 		<image name="md_image">
 		</image>
 
-		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
 		</text>
 
-		<text name="md_genre, md_developer, md_lbl_players, md_players">
+		<rating name="md_rating">
+		</rating>
+
+		<datetime name="md_lastplayed">
+		</datetime>
+
+		<text name="md_releasedate, md_developer, md_publisher">
 		</text>
 
 		<datetime name="md_releasedate">
@@ -94,7 +97,7 @@ Element color: Search and replace colors. Do not use spaces
 		<text name="md_developer">
 		</text>
 
-		<text name="md_genre">
+		<text name="md_publisher">
 		</text>
 
 		<textlist name="gamelist">

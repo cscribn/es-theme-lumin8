@@ -134,54 +134,43 @@
 			<path>./art/box.png</path>
 		</image>
 
-		<text name="No_Image" extra="true">
-			<pos>0.690 0.371</pos>
-			<text>No Image</text>
-			<alignment>center</alignment>
-			<color>a0a0a0</color>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-		</text>
-
 		<image name="md_image">
 			<pos>0.737 0.371</pos>
 			<maxSize>0.476 0.466</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 
-		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
-			<color>726f70</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<size>0 0</size>
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher">
 			<pos>1 1</pos>
 		</text>
 
-		<text name="md_genre, md_developer, md_lbl_players, md_players">
+		<rating name="md_rating">
+			<pos>1 1</pos>
+		</rating>
+
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+
+		<text name="md_releasedate, md_developer, md_publisher">
+			<alignment>center</alignment>
 			<color>726f70</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
+			<size>0.440 0.037</size>
 		</text>
 
 		<datetime name="md_releasedate">
-			<pos>0.590 0.600</pos>
-			<color>726f70</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<pos>0.51 0.637</pos>
 		</datetime>
 
 		<text name="md_developer">
-			<size>0.220 0.037</size>
-			<pos>0.51 0.637</pos>
-			<alignment>center</alignment>
+			<pos>0.51 0.674</pos>
 		</text>
 
-		<text name="md_genre">
-			<pos>0.51 0.668</pos>
-			<size>0.220 0.034</size>
-			<alignment>center</alignment>
+		<text name="md_publisher">
+			<pos>0.51 0.711</pos>
 		</text>
 
 		<textlist name="gamelist">
