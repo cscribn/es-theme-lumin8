@@ -97,34 +97,10 @@ Element color: Search and replace colors. Do not use spaces
 		<text name="md_genre">
 		</text>
 
-		<text name="md_lbl_players">
-		</text>
-
-		<text name="md_players">
-		</text>
-
-		<datetime name="md_lastplayed">
-		</datetime>
-
-		<rating name="md_rating">
-		</rating>
-
-		<text name="md_description">
-		</text>
-
 		<textlist name="gamelist">
 			<selectorColor>04e9f7</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 		</textlist>
-
-		<image name="md_hidden" extra="true">
-		</image>
-
-		<image name="md_kidgame" extra="true">
-		</image>
-
-		<image name="md_favorite" extra="true">
-		</image>
 
 	</view>
 

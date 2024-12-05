@@ -184,34 +184,6 @@
 			<alignment>center</alignment>
 		</text>
 
-		<text name="md_lbl_players">
-			<pos>0.816 0.613</pos>
-		</text>
-
-		<text name="md_players">
-			<pos>0.863 0.6031</pos>
-		</text>
-
-		<datetime name="md_lastplayed">
-			<pos>1 1</pos>
-		</datetime>
-
-		<rating name="md_rating">
-			<pos>1 1</pos>
-			<size>0.028 0.028</size>
-			<filledPath>./art/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./art/star_hollow_3_spacing.svg</unfilledPath>
-		</rating>
-
-		<text name="md_description">
-			<color>726f70</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
-			<size>0.46 0.19</size>
-			<pos>0.510 0.720</pos>
-		</text>
-
 		<textlist name="gamelist">
 			<primaryColor>726f70</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
@@ -224,30 +196,6 @@
 			<fontSize>0.03</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
-
-		<image name="md_hidden" extra="true">
-			<pos>0.806 0.678</pos>
-			<path>./art/hidden.svg</path>
-			<maxSize>0.036 0.036</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>726f70</color>
-		</image>
-
-		<image name="md_kidgame" extra="true">
-			<pos>0.847 0.678</pos>
-			<path>./art/kid.svg</path>
-			<maxSize>0.036 0.036</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>726f70</color>
-		</image>
-
-		<image name="md_favorite" extra="true">
-			<pos>0.889 0.678</pos>
-			<path>./art/favorite.svg</path>
-			<maxSize>0.036 0.036</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>726f70</color>
-		</image>
 
 	</view>
 
