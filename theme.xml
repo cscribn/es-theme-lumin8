@@ -256,7 +256,7 @@
 			<pos>0.527 0.01</pos>
 			<alignment>right</alignment>
 			<fontPath>./art/OpenSansHebrewCondensed-Regular.ttf</fontPath>
-			<fontSize>0.04</fontSize>
+			<fontSize>0.025</fontSize>
 			<text>${system.fullName}</text>
 		</text>
 
