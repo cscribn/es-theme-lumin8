@@ -96,6 +96,17 @@ Element color: Search and replace colors. Do not use spaces
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
 
+		<text name="systemText" extra="true">
+			<color>726f70</color>
+			<forceUppercase>1</forceUppercase>
+			<size>1 0</size>
+			<pos>0 0.01</pos>
+			<alignment>center</alignment>
+			<fontPath>./art/OpenSansHebrewCondensed-Regular.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<text>${system.fullName}</text>
+		</text>
+
 	</view>
 
 	<view name="basic">
@@ -325,6 +336,17 @@ Element color: Search and replace colors. Do not use spaces
 			<origin>0.0 0.0</origin>
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
+
+		<text name="systemText" extra="true">
+			<color>726f70</color>
+			<forceUppercase>1</forceUppercase>
+			<size>0.45 0</size>
+			<pos>0.527 0.01</pos>
+			<alignment>right</alignment>
+			<fontPath>./art/OpenSansHebrewCondensed-Regular.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<text>${system.fullName}</text>
+		</text>
 
 	</view>
 
