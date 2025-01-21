@@ -49,6 +49,9 @@ Element color: Search and replace colors. Do not use spaces
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
 
+		<image name="ConsoleOverlay" extra="true">
+		</image>
+
 		<text name="systemText" extra="true">
 		</text>
 
@@ -131,9 +134,6 @@ Element color: Search and replace colors. Do not use spaces
 
 		<image name="logo">
 		</image>
-
-		<text name="systemText" extra="true">
-		</text>
 
 	</view>
 

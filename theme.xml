@@ -77,6 +77,14 @@
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
 
+		<image name="ConsoleOverlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.22</pos>
+			<origin>0.5 0.5</origin>
+			<size>0 0.15</size>
+			<path>./art/consoles/${system.theme}.png</path>
+		</image>
+
 		<text name="systemText" extra="true">
 			<color>726f70</color>
 			<forceUppercase>1</forceUppercase>
@@ -243,22 +251,11 @@
 		</image>
 
 		<image name="logo">
-			<pos>0.05 0.009</pos>
+			<pos>0.5 0.009</pos>
 			<maxSize>0.35 0.09</maxSize>
 			<origin>0.0 0.0</origin>
 			<path>./art/systems/${system.theme}.svg</path>
 		</image>
-
-		<text name="systemText" extra="true">
-			<color>726f70</color>
-			<forceUppercase>1</forceUppercase>
-			<size>0.45 0</size>
-			<pos>0.527 0.01</pos>
-			<alignment>right</alignment>
-			<fontPath>./art/OpenSansHebrewCondensed-Regular.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<text>${system.fullName}</text>
-		</text>
 
 	</view>
 
