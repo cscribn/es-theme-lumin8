@@ -3,6 +3,7 @@
 ## Changes from Luminous Theme for EmulationStation
 
 * Added system text.
+* Added mini console overlay based on [es-theme-carbon](https://github.com/fabricecaruso/es-theme-carbon).
 * Minimized the metadata to released date, developer, publisher.
 * Simplified by using variables.
 * Modified background for compatibility.
