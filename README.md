@@ -1,6 +1,6 @@
 # Lumin8 Theme for EmulationStation
 
-Lumin8 is an EmulationStation version 4 compatible theme, making it ideal for low-powered systems using RetroPie or ArkOS, as well as the PlayStation Classic. It displays the system's fullname from your `es_settings.cfg`. It displays mini-consoles. Only "Released", "Developer", and "Publisher" meta data is utilized.
+Lumin8 is an EmulationStation version 4 compatible theme, making it ideal for any system, even low-powered ones using RetroPie or ArkOS, as well as the PlayStation Classic. It displays the system's fullname from your `es_settings.cfg`. It displays mini-consoles. Only "Released", "Developer", and "Publisher" meta data is utilized.
 
 ![System Select](art/README/System%20Select.png) ![Detailed Game List](art/README/Detailed%20Game%20List.png)
 
@@ -8,7 +8,7 @@ Based on ['luminous' - 11-03-2016 by Rookervik](https://github.com/ehettervik/es
 
 ## Why "8"?
 
-Eight is the number of bits in a character. For systems, Lumin8 uses characters above the system logos.
+Eight is the number of bits in a character. For systems, Lumin8 uses characters for the system's fullname.
 
 ## Configuration
 
